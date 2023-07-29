@@ -8,26 +8,32 @@
 }
 .main-c {
   display: flex;
-  position: relative;
 }
 .donwloadleft {
   display: flex;
   padding: 20px;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
 }
 .downloadleft img {
   display: flex;
+  position: absolute;
+  bottom: 10px;
+
 }
 .downloadleft p {
   display: flex;
+  position: absolute;
+  left: 50px;
+    bottom: 10px;
 }
 
 .left-side {
   display: flex;
   width: 371.80126953125px;
-  height: 982px;
+  height: 1118px;
   top: 1px;
+  position: relative;
 
   flex-shrink: 0;
   background-color: black;
@@ -99,10 +105,8 @@
 
 .hero {
   display: flex;
-  width: 1447.1px;
-  width: 1573px;
-  /* height: 1115.885px; */
-  height: 950px;
+  width: 1457.1px;
+  height: 1115.885px;
   flex-shrink: 0;
   background: linear-gradient(
     180deg,
@@ -281,7 +285,9 @@
   display: flex;
   width: 147px;
   border: none;
-  height: 51px;
+  top: 16px;
+  left: 1561px;
+  height: 41px;
   flex-shrink: 0;
   border-radius: 33px;
   background: #0a0a0a;
@@ -306,18 +312,20 @@
   flex-direction: row;
 }
 .leftnav img {
-  width: 37px;
-  height: 37px;
+  width: 100px;
+  height: 40px;
+  left: 381px;
+  top: 20px;
   flex-shrink: 0;
-  border-radius: 37px;
 }
 
 .musicplayer {
   display: flex;
   position: sticky;
   bottom: 0px;
-  width: 2005.1px;
-  height: 100px;
+  width: 1727.1px;
+  height: 112px;
+  top: 983px;
   background-color: #181818;
   justify-content: space-between;
   align-items: center;
